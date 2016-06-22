@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Jonathan Tam Launches Site"
+title: "Jonathan Tam, Mechanical Engineer, Launches Site"
 date: 2016-06-22
 ---
 
