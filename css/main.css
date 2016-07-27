@@ -33,3 +33,6 @@ ul.posts li {list-style: none;}
 
 /* Project-Main-Item */
 .project-main-item {margin: 20px; width: 4em; height: 3em;}
+
+/* Profile Picture */
+.profile-pic { float: right;}
