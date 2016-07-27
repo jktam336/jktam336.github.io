@@ -30,3 +30,6 @@ ul.posts li {list-style: none;}
 
 /* Project-Main */
 .project-main {display: flex; flex-wrap: wrap; justify-content: center;}
+
+/* Project-Main-Item */
+.project-main-item {margin: 20px;}
