@@ -32,4 +32,4 @@ ul.posts li {list-style: none;}
 .project-main {display: flex; flex-wrap: wrap; justify-content: center;}
 
 /* Project-Main-Item */
-.project-main-item {margin: 20px; width: 40em; height: 30em;}
+.project-main-item {margin: 20px; width: 4em; height: 3em;}
