@@ -32,7 +32,7 @@ ul.posts li {list-style: none;}
 .project-main {display: flex; flex-wrap: wrap; justify-content: center;}
 
 /* Project-Main-Item */
-.project-main-item {margin: 20px; transform: scale(0.1);}
+.project-main-item {margin-top: 1em; margin-bottom: 1em; margin-left: 40px; margin-right: 40px; transform: scale(0.25);}
 
 /* Profile Picture */
 .profile-pic { float: left; transform: scale(0.5);}
