@@ -33,3 +33,4 @@ ul.posts li {list-style: none;}
 
 /* Project-Box-Item */
 .project-box-item {margin: 10px 2.5%; width="30%"; float: left;}
+.project-box-item img {width: 100%; height: 100%;}
