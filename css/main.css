@@ -28,8 +28,8 @@ ul.posts li {list-style: none;}
 .cv address, .cv p { font-size: 1.2em; }
 .cv .download { float: right; font-size: .8em; text-transform: uppercase; }
 
-/* Project-Main */
-.project-main {display: flex; flex-wrap: wrap; justify-content: center;}
+/* Project-Box */
+.project-box {display: flex; flex-wrap: wrap; justify-content: center;}
 
 /* Project-Main-Item */
-.project-main-item {margin: 10px 2.5%; width="30%";}
+.project-box-item {margin: 10px 2.5%; width="30%";}
