@@ -31,5 +31,5 @@ ul.posts li {list-style: none;}
 /* Project-Box */
 .project-box {display: flex; flex-wrap: wrap; justify-content: center; width: 70%; margin: 0 auto;}
 
-/* Project-Main-Item */
-.project-box-item {margin: 10px 2.5%; width="30%";}
+/* Project-Box-Item */
+.project-box-item {margin: 10px 2.5%; width="30%"; float: left;}
