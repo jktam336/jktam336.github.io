@@ -9,9 +9,34 @@ The schools are tasked with the design and manufacturing of several unmanned veh
 Ultimately, the goal in mind is to have all unmanned vehicles collaborating together to perform tasks in a field demonstration.</p>
 <p>I am the leader of a team of 3 for the unmanned underwater vehicle's projectile system. In short, our objective was
 to provide the capability of shooting a projectile at an undetermined target.</p>
+<h4>DESIGN</h4>
+<p>In addition to the objective, there were several requirements for our projectile system:
+<ul>
+  <li>the torpedo much be launched in response to a command from the UUV</li>
+  <li>according to Robosub competition requirements, the torpedo size is constrained to a box of dimensions 2” x 2” x 6”</li>
+</ul></p>
+<p>Our first approach was to use a pressurized system to launch the torpedo. The main idea was to fill pressurized air into the torpedo.
+The torpedo would be locked in place and the pressure kept until unlocked. Once the torpedo was unlocked, the leaving pressurized air 
+would generate enough initial momentum for it to travel a distance. However, this design was modeled based on a thrust calculation that
+severely underestimated the coefficient of drag. After this correction, it was concluded that in order to achieve a moderate range of 6
+to 12 feet, we would have to pressurize the torpedo to several hundred PSI.</p>
+<p>The design was revised to use a motor system to propel the torpedo. The motor is controlled by an Arduino microcontroller and utilizes
+a photoresister as a means of communication between the UUV and the torpedo. The torpedo would receive a simple stop and go signal.
+We opted for this design due to our previous experience with Arduinos and the greater control that an Arduino gives us over the
+movement of the torpedo.</p>
 <figure>
-<video width="100%" controls>
-  <source src="/projects/uuv/Version L Fin Test 1 (Trimmed).mp4">
-</video>
-<figcaption>Final Demonstration</figcaption>
+  <img src="/projects/uuv/Assembly.png"/>
+  <figcaption>Concept Design</figcaption>
+</figure>
+<h4>MANUFACTURING</h4>
+<p></p>
+<h4>TESTING</h4>
+<p></p>
+<h4>RESULT</h4>
+<p></p>
+<figure>
+  <video width="100%" controls>
+    <source src="/projects/uuv/Version L Fin Test 1 (Trimmed).mp4">
+  </video>
+  <figcaption>Final Demonstration</figcaption>
 </figure>
