@@ -31,7 +31,7 @@ ul.posts li {list-style: none;}
 /* Project Gallery */
 .project-box {display: flex; flex-wrap: wrap; justify-content: center; width: 70%; margin: 0 auto;}
 
-.project-box-item {margin: 10px 2.5%; width: 40%; float: left;}
+.project-box-item {margin: 10px 1%; width: 40%; float: left;}
 .project-box-item img {width: 100%; height: 100%;}
 
 /* Individual Project Page */
