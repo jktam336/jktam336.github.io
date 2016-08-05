@@ -3,32 +3,42 @@ layout: default
 title: NGCP UUV Projectile System
 ---
 <h1>{{ page.title }}</h1>
+
 <img src="/projects/uuv/Version L Fin Pre-Test.JPG" class="project-image"/>
+
 <p>The Northrop Grumman Collaboration Project is a collaboration between Northrop Grumman and the schools Cal Poly Pomona and Cal Poly San Luis Obispo.
 The schools are tasked with the design and manufacturing of several unmanned vehicles such as a ground vehicle, aerial vehicle, and underwater vehicle.
 Ultimately, the goal in mind is to have all unmanned vehicles collaborating together to perform tasks in a field demonstration.</p>
+
 <p>I am the leader of a team of 3 for the unmanned underwater vehicle's projectile system. In short, our objective was
 to provide the capability of shooting a projectile at an undetermined target.</p>
+
 <h4>DESIGN</h4>
+
 <p>In addition to the objective, there were several requirements for our projectile system:
 <ul class="uuv">
   <li>the torpedo much be launched in response to a command from the UUV</li>
   <li>according to Robosub competition requirements, the torpedo size is constrained to a box of dimensions 2” x 2” x 6”</li>
 </ul></p>
+
 <p>Our first approach was to use a pressurized system to launch the torpedo. The main idea was to fill pressurized air into the torpedo.
 The torpedo would be locked in place and the pressure kept until unlocked. Once the torpedo was unlocked, the leaving pressurized air 
 would generate enough initial momentum for it to travel a distance. However, this design was modeled based on a thrust calculation that
 severely underestimated the coefficient of drag. After this correction, it was concluded that in order to achieve a moderate range of 6
 to 12 feet, we would have to pressurize the torpedo to several hundred PSI.</p>
+
 <p>The design was revised to use a motor system to propel the torpedo. The motor is controlled by an Arduino microcontroller and utilizes
 a photoresister as a means of communication between the UUV and the torpedo. The torpedo would receive a simple stop and go signal.
 We opted for this design due to our previous experience with Arduinos and the greater control that an Arduino gives us over the
 movement of the torpedo.</p>
+
 <figure>
   <img src="/projects/uuv/Assembly.png" class="project-image1"/>
   <figcaption>Concept Design</figcaption>
 </figure>
+
 <h4>MANUFACTURING</h4>
+
 <p>Prototypes were made using 3D printing. During this process, we learned of several things:
 <ul class="uuv">
   <li>plastic vapor deposition</li>
@@ -36,20 +46,27 @@ movement of the torpedo.</p>
   <li>how hard it is to waterproof something</li>
   <li>that our design for activation and communication WORKS!</li>
 </ul></p>
+
 <p>After prototyping, we proceeded with using CNC machines to help us make the final version out of aluminum.</p>
-<figure>
-  <img src="/projects/uuv/3D Printed.JPG" class="project-image1"/>
-  <figcaption>Freshly Printed</figcaption>
-</figure>
-<figure>
-  <img src="/projects/uuv/WP_20160504_23_03_29_Pro.jpg" class="project-image1"/>
-  <figcaption>CNC Milling</figcaption>
-</figure>
+
+<div class="gallery-box-2">
+  <figure>
+    <img src="/projects/uuv/3D Printed.JPG" class="project-image1"/>
+    <figcaption>Freshly Printed</figcaption>
+  </figure>
+  <figure>
+    <img src="/projects/uuv/WP_20160504_23_03_29_Pro.jpg" class="project-image1"/>
+    <figcaption>CNC Milling</figcaption>
+  </figure>
+</div>
+
 <h4>TESTING</h4>
+
 <p>During our tests, we noticed a major problem with the torpedo. It would travel in circles! After some consultation and deliberation,
 we determined that the reason was because our fins were not having enough of an effect on the direction of travel. We were determined
 to test this theory by making a couple variations of the torpedo which featured different fin lengths and profiles. Indeed, as more of
 the fins' surface area was exposed to the moving fluid, the torpedo proceeded to travel straighter and straighter.</p>
+
 <div class="gallery-box-3">
   <div class="gallery-image-3">
     <img src="/projects/uuv/Version N Fin.JPG"/>
@@ -64,10 +81,13 @@ the fins' surface area was exposed to the moving fluid, the torpedo proceeded to
     <figcaption>Version with long fin attachments.</figcaption>
   </div>
 </div>
+
 <h4>RESULT</h4>
+
 <p>In conclusion, the projectile is able to travel in a relatively straight line for a distance of up to 15 feet with the long fin
 attachments. Although we were unable to participate in the Northrop Grumman Demonstration or RoboSub Competition this year, 
 the results of this project will serve to form a great foundation for any future team desiring to repeat our tasks.</p>
+
 <figure>
   <video width="100%" controls>
     <source src="/projects/uuv/Version L Fin Test 1 (Trimmed).mp4">
