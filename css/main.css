@@ -36,5 +36,5 @@ ul.posts li {list-style: none;}
 
 /* Individual Project Page */
 .project-image {width: 100%;}
-.project-image1 {margin: auto;}
+.project-image1 {width: 75%; margin: auto;}
 .project-image3 {width: 25%; margin: 2.5%; justify-content: center; display: flex;}
